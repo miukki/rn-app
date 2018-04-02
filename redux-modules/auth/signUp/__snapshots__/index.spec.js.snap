@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`signIn redux should return the initial state 1`] = `
+Immutable.Map {
+  mobile: "",
+  vcode: "",
+  submitting: false,
+  error: Immutable.Map {
+    userAlreadyExist: false,
+    wrongMobile: false,
+    duplicateMobile: false,
+    wrongVcode: false,
+    weakPassword: false,
+  },
+  vcodeCountdown: 0,
+  vcodeSending: false,
+  showPassword: false,
+  vcodeSent: false,
+  password: "",
+  show: false,
+}
+`;

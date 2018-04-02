@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlipCards reducer should handle action.type RENDER_EMPTY 1`] = `
+Object {
+  "items": Array [],
+  "planAmount": 0,
+  "remain": 0,
+  "warning": "No Learned Words",
+}
+`;
+
+exports[`FlipCards reducer should return the initial state 1`] = `
+Immutable.Map {
+  items: Immutable.List [
+  ],
+  warning: "No Learned Words",
+  planAmount: 0,
+  remain: 0,
+}
+`;
